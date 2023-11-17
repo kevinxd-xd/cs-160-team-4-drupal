@@ -1,0 +1,119 @@
+/* To roll the text around the image */
+.node .field--name-field-image {
+  float: left;
+}
+
+.field--type-text::after,
+.field--type-text::before,
+.field--type-text-with-summary::after,
+.field--type-text-with-summary::before,
+div.item-list > ol.item-list > li article::after,
+div.item-list > ol.item-list > li article::before {
+  display: inline !important;
+}
+
+/* User picture on the node */
+.node__header,
+.node__content {
+  margin-bottom: 12px;
+}
+
+.node__meta {
+  display: flex;
+  align-items: center;
+}
+
+.node__meta .node__author-image {
+  margin-right: 12px;
+  overflow: hidden;
+}
+
+.node__meta .node__author-info {
+  font-size: 90%;
+}
+
+.node__meta .node__author-image img {
+  border-radius: 50%;
+}
+
+.node--view-mode-full .field--type-entity-reference .field__item:first-child a {
+  padding-left: 0 !important;
+}
+
+.node--view-mode-full .node__content .field--type-text-long,
+.node--view-mode-full .node__content .field--type-string-long,
+.node--view-mode-full .node__content .field--type-text-with-summary {
+  font-size: 22px;
+  line-height: 190%;
+}
+.field > .field__label,
+.field > .field__item,
+.field > .field__items,
+.field > .field__items > .field__item {
+  display: inline-block;
+}
+
+.field--label-above > .field__label,
+.field--label-above > .field__item,
+.field--label-above > .field__items {
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.field--type-h5p .field__label,
+.field--type-h5p .field__item,
+.field--type-h5p .field__items {
+  width: 100%;
+}
+
+.field--label-above > .field__item,
+.field--label-above > .field__items > .field__item:first-child,
+.field--label-above > .field__items > .field__item:first-child a {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+
+.field__items > .field__item,
+.field--label-inline > .field__label {
+  margin-right: 10px;
+}
+
+.field--label-inline .field__label::after {
+  content: ':';
+}
+
+.field--name-field-tags .field__item,
+ul.links li {
+  border: none !important;
+}
+
+ul.links li a {
+  border: none;
+  padding: 0 !important;
+  display: inline-block;
+}
+
+.field--name-field-tags .field__item a {
+  border: none;
+  padding: 3px;
+}
+
+.field--name-field-tags .field__label {
+  padding: 7px 0;
+}
+
+.node__content ul.links {
+  float: right;
+}
+
+.node__content ul.links li:last-child {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+.field--type-entity-reference .field__label,
+.field--type-entity-reference .field__item {
+  font-size: 100%;
+}
